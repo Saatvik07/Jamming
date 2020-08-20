@@ -1,0 +1,45 @@
+.SearchResults {
+  min-width: 500px;
+  min-height: 500px;
+  padding: 2.27rem 1.16rem;
+  background-color: rgba(1, 12, 63, 0.7);
+  box-shadow: 0 4px 2px 2px #000000;
+}
+.container-res {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2.27rem 1.16rem;
+}
+.res {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+.default {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+@media only screen and (max-width: 1020px) {
+  .SearchResults {
+    width: 90%;
+    margin-bottom: 2rem;
+    padding: 1.11rem 1.11rem;
+    min-height: 300px;
+    min-width: 300px;
+  }
+  .container-res {
+    padding: 1.11rem 1.11rem;
+  }
+  .res {
+    background-color: rgba(1, 12, 63, 0.8);
+  }
+}
